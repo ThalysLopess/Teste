@@ -1,0 +1,161 @@
+html,
+body {
+    background-color: #FFFFFF;
+    color: #383838;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #383838;
+}
+
+section table {
+    background-color: #FFFFFF;
+}
+
+::-moz-selection {
+    background: #fab702;
+    color: #fff;
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+    -webkit-box-shadow: 0 5px 15px #888;
+    box-shadow: 0 5px 15px #888;
+}
+
+::-moz-selection {
+    background: #fab702;
+    color: #fff;
+}
+
+::selection {
+    background: #fab702;
+    color: #fff;
+}
+
+a.brand {
+    background-image: url(assets/images/image_1.png);
+}
+
+a,
+a:hover,
+a:active {
+    color: #0000FF;
+}
+
+hr {
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+div.navbar-inner,
+.navbar .nav li ul {
+    background: #fab702;
+    color: #fff;
+}
+
+a.btn-navbar {
+    background: #DDDDDD;
+    color: #222222;
+}
+
+.navbar .nav li a {
+    color: #fff;
+}
+
+.navbar .nav li a:hover,
+.navbar .nav li.active a {
+    text-shadow: none;
+}
+
+div.navbar-inner ul {}
+
+.navbar .nav > li a {
+    color: #fff;
+}
+
+.navbar .nav > li a:hover,
+a.btn-navbar:hover {
+    background: #fff;
+    color: #fab702;
+}
+
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover,
+a.btn-navbar:active {
+    background-color: #fab702;
+    color: #fff;
+}
+
+.navbar .nav li ul li a:hover {
+    background: #fab702;
+    color: #fff;
+}
+
+.navbar .nav li ul li a:active {
+    background: #fab702;
+    color: #fff;
+}
+
+.btn-primary {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(#0088CC), to(#0044CC));
+    background-image: linear-gradient(top, #0088CC, #0044CC);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+    border-color: #0044CC #0044CC #bfbfbf;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+    background-color: #0044CC;
+}
+
+#documenter_copyright {
+    display: block !important;
+    visibility: visible !important;
+}
+
+#theme_options2 img {
+    border: 1px solid #eee;
+    margin: 10px 0;
+    max-width: 100%;
+    padding: 10px;
+}
+
+
+.table-content ol {
+    list-style: outside none none;
+}
+
+.table-content ol ol {
+    padding: 5px 0;
+}
+
+
+.table-content ol li {
+    margin: 2px 0;
+}
+
+.table-content ol li span {
+    background-color: #fab702;
+    border-radius: 3px;
+    color: #fff;
+    padding: 2px;
+}
+
+.note {
+    background-color: #fab702;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 3px;
+}
